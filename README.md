@@ -166,10 +166,19 @@ pip install pyspark spark-nlp kafka-python pandas
 
 ### Start Kafka & Zookeeper
 
-```bash
 # Start Zookeeper
+```bash
+bin/zookeeper-server-start.sh config/zookeeper.properties
+```
 
-# Start Kafka
+# Start Kafka (in a new terminal)
+```bash
+bin/kafka-server-start.sh config/server.properties
+```
+
+# Create the topic (first time only)
+```bash
+bin/kafka-topics.sh --create --topic tweets --bootstrap-server localhost:9092
 ```
 
 ---
