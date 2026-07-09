@@ -218,32 +218,6 @@ The system was evaluated on **438 streaming micro-batches**.
 
 ---
 
-# 📷 Project Screenshots
-
-## Architecture
-
-<p align="center">
-<img src="assets/architecture.png" width="900">
-</p>
-
----
-
-## Streaming Output
-
-<p align="center">
-<img src="assets/streaming.png" width="900">
-</p>
-
----
-
-## Accuracy Curve
-
-<p align="center">
-<img src="assets/accuracy.png" width="900">
-</p>
-
----
-
 # 📄 Report
 
 Complete report available here:
