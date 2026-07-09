@@ -287,4 +287,4 @@ If you found this project useful, consider giving it a ⭐ on GitHub.
 
 # 📜 License
 
-Developed for educational purposes as part of the **Hardware and Software for Big Data** course at the **University of Naples Federico II**.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
