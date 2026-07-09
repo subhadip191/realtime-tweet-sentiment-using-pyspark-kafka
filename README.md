@@ -52,9 +52,21 @@ python src/producer.py
 
 ## Results
 
-See [`Report and Result/Report.pdf`](./Report%20and%20Result/Report.pdf) and 
-[`Report and Result/experiment_results.csv`](./Report%20and%20Result/experiment_results.csv) 
-for full experiment results and analysis.
+Evaluated over 438 consecutive streaming batches (Batch 1 excluded as a pipeline 
+initialization artifact):
+
+| Metric | Value |
+|---|---|
+| Final Cumulative Accuracy | **69.00%** |
+| Peak Cumulative Accuracy | 75.32% (Batch 6) |
+| Mean Precision | 72.79% |
+| Mean Recall | 69.00% |
+| Batches Processed | 438 |
+
+The model handles 4-way sentiment classification (positive, negative, litigious, 
+uncertainty) — a harder task than typical binary sentiment analysis. Precision 
+consistently exceeds recall, indicating a low false-positive rate across classes. 
+Full analysis available in [`Report and Result/Report.pdf`](./Report%20and%20Result/Report.pdf).
 
 ## Author
 Subhadip Maity — [GitHub](https://github.com/subhadip191) · [LinkedIn](https://linkedin.com/in/subhadipmaity191)
